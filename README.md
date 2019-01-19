@@ -1,3 +1,37 @@
+# Pester v5 - alpha2
+
+> 🐛 This is branch for pre-release, use at your own risk.
+> 👉 There is more info down below, under Pester v5 - alpha1
+
+## What is new?
+
+### Scoping
+
+This change is not really that new, it works the same as in alpha1, but there I did not describe it 😅 And now it is useful to understand the difference from v4 and to understand the mocking. So here we go:
+
+#### Execution order
+
+- in which order the blocks execute in relation to describe
+  In v4
+
+#### Scopes
+
+where code executes and which blocks share state
+
+#### Nested blocks and their setups
+
+before and after execute only for tests in the current block
+
+#### BeforeAll & AfterAll location
+
+what fails when setup or teardown fails
+
+### Basic mocking works
+
+### Implicit parameters for TestCases
+
+---
+
 # Pester v5 - alpha1
 
 > 🐛 This is branch for pre-release, use at your own risk.
